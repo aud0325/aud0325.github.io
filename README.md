@@ -1,3 +1,29 @@
-# 안녕하세요
-프론트 엔드 개발자로 새롭게 시작하는 마크입니다.
-반갑습니다.
+# aud0325.github.io
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Run your tests
+```
+npm run test
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
