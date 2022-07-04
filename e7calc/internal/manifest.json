@@ -1,10 +1,11 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-bc629f0f.js",
+    "file": "start-dfa77adc.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_index-e59d2d6e.js"
+      "_index-a75f5066.js",
+      "_preload-helper-e2e61f78.js"
     ],
     "dynamicImports": [
       ".svelte-kit/runtime/components/layout.svelte",
@@ -13,36 +14,57 @@
     ]
   },
   ".svelte-kit/runtime/components/layout.svelte": {
-    "file": "layout.svelte-03e4ad3a.js",
+    "file": "layout.svelte-a3a5c8fe.js",
     "src": ".svelte-kit/runtime/components/layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-e59d2d6e.js"
+      "_index-a75f5066.js"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
-    "file": "error.svelte-43f05f7e.js",
+    "file": "error.svelte-2269a421.js",
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-e59d2d6e.js"
+      "_index-a75f5066.js"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-8afc305e.js",
+    "file": "pages/index.svelte-7b73c21d.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-e59d2d6e.js"
+      "_index-a75f5066.js",
+      "_preload-helper-e2e61f78.js"
+    ],
+    "dynamicImports": [
+      "src/i18n/locales/en.json",
+      "src/i18n/locales/ko-KR.json"
     ],
     "css": [
-      "assets/pages/index.svelte-c21d7c53.css"
+      "assets/pages/index.svelte-035c75d1.css"
     ]
   },
-  "_index-e59d2d6e.js": {
-    "file": "chunks/index-e59d2d6e.js"
+  "_index-a75f5066.js": {
+    "file": "chunks/index-a75f5066.js"
+  },
+  "_preload-helper-e2e61f78.js": {
+    "file": "chunks/preload-helper-e2e61f78.js",
+    "imports": [
+      "_index-a75f5066.js"
+    ]
+  },
+  "src/i18n/locales/en.json": {
+    "file": "chunks/en-66ff74f3.js",
+    "src": "src/i18n/locales/en.json",
+    "isDynamicEntry": true
+  },
+  "src/i18n/locales/ko-KR.json": {
+    "file": "chunks/ko-KR-0b7b8ef2.js",
+    "src": "src/i18n/locales/ko-KR.json",
+    "isDynamicEntry": true
   }
 }
